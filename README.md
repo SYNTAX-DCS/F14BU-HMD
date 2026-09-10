@@ -19,7 +19,7 @@ Get the latest **installer** and the **user guide (PDF)** from the
 
 ## Install
 
-1. Download and run `JHMCS-Installer.exe` from Releases.
+1. Download and run `HMD-Installer.exe` from Releases.
 2. **Close DCS first**, the mod loads at startup and cannot be replaced while DCS is open.
 3. Accept the administrator prompt (only needed if DCS is under `Program Files`).
 4. Click **Install**, then start DCS and fly the F-14B(U).
