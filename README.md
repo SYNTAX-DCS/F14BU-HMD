@@ -49,9 +49,10 @@ the logs we need. Send it to us on Discord and we can see exactly what the mod i
   the selected missile's maximum range. It sits just above the lock box, where your HUD puts
   it. It tracks the HUD closely, but the HUD remains the authority.
 - **Contacts follow your radar.** An aircraft appears in the helmet only while your radar is
-  transmitting and he is inside the volume it is scanning. It is not a radar simulation: DCS
-  does not tell mods what the real radar has lost to the notch, chaff or jamming, so the TID
-  remains the authority.
+  transmitting and he is inside the volume it is scanning, and beyond 5 NM only while your TID
+  holds a track at his altitude, one aircraft per track. It is not a radar simulation: inside
+  5 NM the helmet can still show an aircraft the real radar has lost to the notch, chaff or
+  jamming, so the TID remains the authority.
 - **Helmet lock is always installed.** Look at an aircraft and press your helmet lock
   button, and your radar locks the first aircraft in a small patch of sky centred where you
   are looking, out to about 80 NM on a fighter. You get LOCKING while it works, then LOCKED
